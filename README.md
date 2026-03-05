@@ -43,11 +43,11 @@ python scripts/04_download_gibs.py
 ### Phase 3 — Metrics and figures
 ```bash
 jupyter nbconvert --to notebook --execute scripts/05_coldcloud_metrics.ipynb
-jupyter nbconvert --to notebook --execute scripts/fig1_track_vmax.ipynb
-jupyter nbconvert --to notebook --execute scripts/fig2_sst_maps.ipynb
-jupyter nbconvert --to notebook --execute scripts/fig3_truecolor_filmstrip.ipynb
-jupyter nbconvert --to notebook --execute scripts/fig4_ir_filmstrip.ipynb
-jupyter nbconvert --to notebook --execute scripts/fig5_coldcloud_timeseries.ipynb
+jupyter nbconvert --to notebook --execute scripts/track_vmax.ipynb
+jupyter nbconvert --to notebook --execute scripts/sst_maps.ipynb
+jupyter nbconvert --to notebook --execute scripts/truecolor_filmstrip.ipynb
+jupyter nbconvert --to notebook --execute scripts/ir_filmstrip.ipynb
+jupyter nbconvert --to notebook --execute scripts/coldcloud_timeseries.ipynb
 ```
 
 Figures are saved to `figures/`.
